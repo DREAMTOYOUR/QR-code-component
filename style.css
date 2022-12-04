@@ -45,5 +45,8 @@ p{
 }
 .mention a{
     color: rgb(235, 200, 135);
-    justify-content: last baseline;
+    justify-content: flex-end;
+    align-items: center;
 }
+
+@media (max-width: 500px){ body{ width: 90%;} } 
